@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chuno gordinflon | contacto</title>
+    <link rel="shortcut icon" href="/assets/iconos/huella-contacto.png" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/contacto.css">
+</head>
+<body>
+
+    <header>
+        <h1>chuno el gato gordinflon</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/index.html" href="/">Inicio</a>
+                </li>
+                <li>
+                    <a href="/preferencias">Preferencias</a>
+                </li>
+                <li>
+                    <a href="/audiovisuales">Audiovisuales</a>
+                </li>
+                <li>
+                    <a href="/PAGES/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section id="section-contacto">
+        <div>
+            <form>
+                <label for="nombre"><strong><i>Nombre: </i></strong></label>
+                <input type="text" name="nombre" id="nombre" required placeholder="escribe tu nombre" minlength="3" maxlength="100">
+                <label for="apellido"><strong><i>Apellido: </i></strong></label>
+                <input type="text" name="apellido" id="apellido" required placeholder="escribe tu apellido" minlength="3" maxlength="100">
+                <label for="apellido"><strong><i>Email: </i></strong></label>
+                <input type="email" name="email" id="email" required placeholder="escribe tu email" minlength="3" maxlength="200">
+                <label for="pais"><strong><i>Pais: </i></strong></label>
+                <select name="pais" required>
+                    <option value="" disabled selected>Seleccione su país</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Peru">Perú</option>
+                    <option value="Uruguay">Uruguay</option>
+                </select>
+                <label for="comentarios"><strong><i>Comentarios: </i></strong></label>
+                <textarea name="comentario" required id="comentario" placeholder="Dejanos tu comentario" minlength="3" maxlength="100" ></textarea>
+                <label for="contacto" id="label-radio"><strong><i>Motivo de contacto: </i></strong></label>
+                <input type="radio" required name="motivo" value="motivo1" ><i>Soy Fan</i>
+                <input type="radio" required name="motivo" value="motivo2" ><i>Publicitar</i>
+                <input type="radio" required name="motivo" value="motivo3" ><i>Sugerencias</i>
+                <button type="submit">enviar</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <p>Derechos de autor reservados &copy;2024</p>
+
+    </footer>
+</body>
+</html>
