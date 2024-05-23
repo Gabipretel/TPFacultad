@@ -92,3 +92,32 @@ p {
     text-align: center;
     clear: both;
 }
+
+.centrado {
+    justify-content: center;
+    display: flex;
+    padding-top: 25px;
+ }
+
+.gallery div {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    height: 20px;
+    background-color: #ab9597;
+}
+
+div.gallery img {
+    height: auto;
+    width: 300;
+    border: 2px solid #febd84;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.gallery img:hover {
+    border: 1px solid #9f8241;
+}
